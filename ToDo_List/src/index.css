@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply w-24 font-bold rounded-sm h-8 text-center bg-blue-400 
+    }
+}

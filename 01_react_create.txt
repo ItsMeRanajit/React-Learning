@@ -1,0 +1,24 @@
+import tailwindConfig from "./props/tailwind.config"
+
+--------to create a react app use
+
+//old method--
+1. npx create-react-app filename
+2. npm start
+
+
+//new method brocode method--
+
+1.npm create vite@latest
+
+2.
+    select - y
+    give project name and others //react app created
+
+3.  cd react-app 
+
+4. npm install
+
+5. npm run dev
+
+

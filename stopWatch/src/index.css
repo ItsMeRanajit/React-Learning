@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply w-20 h-12 text-lg text-white rounded-md shadow-md bg-violet-500 shadow-gray-700;
+
+        &:active{
+            @apply bg-violet-600 scale-95
+        }
+    }
+}

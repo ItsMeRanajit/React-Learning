@@ -1,0 +1,13 @@
+#react virtual dom - 
+    we all know react rerenders only the changed component. how do it do this? react uses virtual dom. react makes a exact mimick of the original page. and when some changes happens in the main page, react compares its mimick to the changed main page. so whatever difference react finds between them react re-renders that component and mimicks the page again 
+
+#reconciliation -
+    Reconciliation in React is the process of updating the DOM to match the desired state of your React components. Whenever a component's state or props change, React needs to determine the most efficient way to update the UI. Reconciliation is the algorithm that React uses to decide what parts of the DOM need to be changed.
+
+    it actually have 3 steps -
+    1. virtual dom comparison - checking the v. dom and main changed page
+    2. diffing algo - notices the differences
+    3. efficient updates - finds the most efficient way to re-render to match the desired state
+
+#react fibre -
+    its just a rewrite of the react core algorithm to handle complex jobs like animations. making it more flexible, efficient, and capable of handling more complex uis

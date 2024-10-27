@@ -1,0 +1,17 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+@layer components{
+    .button{
+        @apply p-3 m-5 text-white transition-all rounded-md shadow-md bg-violet-500 shadow-black ;
+    
+    &:active{
+        @apply bg-violet-600 scale-95
+    }
+}
+
+.box{
+    @apply p-5 border-2 border-black m-2
+}
+}

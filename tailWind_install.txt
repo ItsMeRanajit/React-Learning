@@ -1,0 +1,26 @@
+-------to add tailwindConfig
+
+//react app created by old method
+1.npm install -D tailwindcss
+2.npx tailwindcss init
+3. add  "./src/**/*.{js,jsx,ts,tsx}" in tailwindConfig in content
+
+4.  @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+add this in index.css
+
+5. done --use npm strt to start website
+
+//react app created by brocode (new) method----
+
+1. npm install -D tailwindcss postcss autoprefixer
+2. npx tailwindcss init -p
+3. add  "./src/**/*.{js,jsx,ts,tsx}" in tailwindConfig in content
+
+4.  @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+add this in index.css
+
+5. npm run dev (run website)

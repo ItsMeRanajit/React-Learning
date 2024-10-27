@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.bg-custom {
+          background-image: url('./assets/image.jpg');
+          @apply  bg-no-repeat bg-cover;
+        }
+      }

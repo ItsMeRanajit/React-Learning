@@ -1,0 +1,2 @@
+down load axios before npm run dev
+ 1. npm i axios
